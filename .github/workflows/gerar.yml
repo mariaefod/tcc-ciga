@@ -1,0 +1,21 @@
+name: Gerar documento
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pipx install poetry
+      - run: poetry install
+      - run: poetry run python src/gerar.py
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y libreoffice-writer python3-uno
+      - run: /usr/bin/python3 src/sumario.py "projeto/Projeto - Maria Eduarda.docx"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: projeto
+          path: "projeto/Projeto - Maria Eduarda.docx"
