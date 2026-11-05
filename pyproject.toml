@@ -1,0 +1,13 @@
+[project]
+name = "tcc-ciga"
+version = "0.1.0"
+description = "Documentação de monografia"
+authors = [{ name = "Maria Eduarda Ferreira Oliveira Duque" }]
+requires-python = ">=3.10"
+dependencies = [
+    "markdown-it-py>=3.0",
+    "python-docx>=1.1",
+]
+
+[tool.poetry]
+package-mode = false
