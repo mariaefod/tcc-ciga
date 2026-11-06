@@ -78,7 +78,7 @@ FOLHA_DE_ROSTO = {
     'autor': 0,
     'titulo': 150,
     'natureza': 60,
-    'orientador': 12,
+    'orientadora': 12,
     'cidade': 180,
     'ano': 0,
 }

@@ -39,13 +39,13 @@ for pagina in paginas:
     for chave, antes in pagina.items():
         if chave not in dados:
             continue
-        if chave in ('natureza', 'orientador'):
+        if chave in ('natureza', 'orientadora'):
             p = paragrafo('Natureza')
         else:
             p = paragrafo('Capa')
         p.paragraph_format.space_before = Pt(antes)
-        if chave == 'orientador':
-            p.add_run('Orientador: ')
+        if chave == 'orientadora':
+            p.add_run('Orientadora: ')
         p.add_run(dados[chave])
         if chave == 'titulo' and 'subtitulo' in dados:
             p.add_run(': ')
