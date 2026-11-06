@@ -2,7 +2,7 @@
 instituicao: FUNDAÇÃO JOÃO PINHEIRO
 escola: Escola de Governo Professor Paulo Neves de Carvalho
 autor: Maria Eduarda Ferreira Oliveira Duque
-titulo: DOC AS CODE NA ADMINISTRAÇÃO PÚBLICA
+titulo: DOCS AS CODE NA ADMINISTRAÇÃO PÚBLICA
 subtitulo: colaboração, versionamento e transparência na gestão da documentação institucional
 natureza: Projeto de Monografia apresentado ao Curso de Pós-graduação em Inovação, Estratégia e Gestão Pública Avançada da Escola de Governo Professor Paulo Neves de Carvalho da Fundação João Pinheiro.
 orientadora: Renata de Souza França.
@@ -19,7 +19,7 @@ A gestão do conhecimento, que inclui captar, difundir e compartilhar informaç�
 
 Entretanto, entre os principais desafios do setor público está a perda de conhecimento tácito, agravada pela alta rotatividade de servidores, pelas aposentadorias, pelas mudanças de gestão e pelas barreiras burocráticas, bem como pela ausência de uma cultura voltada à aprendizagem organizacional continuada e à inovação (SILVA; SOUZA, 2025, p. 70). A limitação de conhecimento sobre processos de gestão da informação, a falta de recursos humanos e orçamentários e o uso de linguagem própria e técnica de cada setor também podem ser elencados como desafios para a implementação de sistemas de gerenciamento do conhecimento (SCLESINGER *et al.*, 2008 apud RIPOLI; MARTELLO; BUSSADORI, 2022, p. 2).
 
-Esse comportamento impacta negativamente a prestação dos serviços públicos e o atendimento das demandas da população por qualidade, diversidade, continuidade, transparência e inovação (SILVA; SOUZA, 2025, p. 71). Pode-se ainda dizer que a ausência de gestão do conhecimento gera ineficiência nos gastos públicos e na administração, além de contribuir para o fracasso na implantação de programas (RIPOLI; MARTELLO; BUSSADORI, 2022, p. 13).
+Esse cenário impacta negativamente a prestação dos serviços públicos e o atendimento das demandas da população por qualidade, diversidade, continuidade, transparência e inovação (SILVA; SOUZA, 2025, p. 71). Pode-se ainda dizer que a ausência de gestão do conhecimento gera ineficiência nos gastos públicos e na administração, além de contribuir para o fracasso na implantação de programas (RIPOLI; MARTELLO; BUSSADORI, 2022, p. 13).
 
 Portanto, para enfrentar esse cenário, torna-se essencial a utilização de ferramentas, sistemas e métodos de gestão do conhecimento, como os sistemas de gestão de conteúdo (*Content Management System* – CMS), as plataformas colaborativas (redes corporativas e *wikis*), as bases de dados e repositórios de conhecimento e as ferramentas de aprendizado *online* (SILVA; SOUZA, 2025, p. 67-69). Segundo FIA (2009 apud RIBEIRO; IZQUIERDO, 2017, p. 67-73), pode-se elencar ainda técnicas como: redes de pessoas, páginas amarelas, comunidades de práticas, divulgação de práticas relevantes, registro de lições aprendidas, *brainstorming*, *storytelling*, entrevistas de saída, mapas de conhecimento, *coaching* e repositórios de conhecimento.
 
@@ -33,7 +33,7 @@ O tema desta pesquisa é a gestão do conhecimento e a preservação da memória
 
 ## 2.2 Objetivo Geral
 
-A partir do contexto e da delimitação do tema apresentados, o objetivo geral da pesquisa será: investigar a aplicabilidade dos princípios do Docs as Code como estratégia de mitigação da perda de memória institucional e aprimoramento do ciclo de vida do conhecimento explícito na Administração Pública.
+A partir do contexto e da delimitação do tema apresentados, o objetivo geral da pesquisa será: investigar a aplicabilidade dos princípios do *Docs as Code* como estratégia de mitigação da perda de memória institucional e aprimoramento do ciclo de vida do conhecimento explícito na Administração Pública.
 
 ## 2.3 Objetivos Específicos
 
@@ -41,69 +41,90 @@ Para alcançar o objetivo geral, a pesquisa terá como objetivos específicos:
 
 1) identificar, por meio da literatura, os fatores organizacionais e operacionais que causam a fragmentação da documentação e o esvaziamento da memória institucional na rotina do setor público;
 
-2) correlacionar as práticas de Docs as Code  com as etapas de criação, retenção e disseminação da Gestão do Conhecimento;
+2) correlacionar as práticas de *Docs as Code* com as etapas de criação, retenção e disseminação da Gestão do Conhecimento;
 
-3) analisar  os requisitos técnicos, normativos e as barreiras culturais para a implementação dessa abordagem em equipes multidisciplinares da Administração Pública;
+3) analisar os requisitos técnicos, normativos e as barreiras culturais para a implementação dessa abordagem em equipes multidisciplinares da Administração Pública;
 
-4) propor diretrizes práticas de fluxo de trabalho baseado em Docs as Code, voltado à sustentabilidade e atualização contínua da documentação institucional.
+4) propor diretrizes práticas de fluxo de trabalho baseado em *Docs as Code*, voltado à sustentabilidade e atualização contínua da documentação institucional.
 
 # 3 JUSTIFICATIVA
 
-Quando um servidor se aposenta ou é transferido sem que seus processos de trabalho tenham sido registrados, a organização deixa de saber como realizar certas tarefas com excelência (BRITO *et al.*, 2012 apud RODRIGUES, 2026). Para reverter esse cenário, é decisivo que o planejamento tecnológico atue na formalização do conhecimento, uma vez que a tecnologia funciona como elemento viabilizador e acelerador dos processos de gestão do conhecimento (BATISTA, 2012 apud RODRIGUES, 2026).
+No setor público, um dos problemas enfrentados é a descontinuidade dos processos administrativos e o risco de perda de capital intelectual, decorrentes da rotatividade e da aposentadoria de servidores que detêm o conhecimento técnico, sem que esse saber seja repassado aos demais. Para reverter esse cenário e garantir a manutenção do conhecimento apesar das mudanças, é importante instituir a aprendizagem organizacional, que cria uma memória institucional por meio de ferramentas e técnicas de gestão do conhecimento (RODRIGUES, 2026). Porém, para que essa memória se forme, deve-se registrar o conhecimento, o que nem sempre ocorre na prática.
 
-No entanto, registrar o conhecimento não basta: é preciso mantê-lo atualizado e confiável. Ferramentas como as *wikis* oferecem um ambiente simples e colaborativo de escrita, mas não contam com as vantagens de automação e de controle de versões da abordagem *Docs as Code*. Nessa abordagem, os problemas na documentação podem ser registrados e acompanhados da mesma forma que os erros de um software, o que permite planejar sua correção e demonstrar melhorias graduais ao longo do tempo. Além disso, as alterações são feitas em pequenas partes, fáceis de comparar, e os revisores podem visualizá-las em contexto antes de aprová-las (GENTLE, 2023).
+Essa dificuldade pode ser observada por meio da pesquisa do Ipea realizada em 2014 com 81 organizações da administração pública federal. Nas práticas relacionadas a processos facilitadores da gestão do conhecimento (Gráfico 1), não havia planos de implantação em 35% dos casos, 31% estavam em implantação ou planejamento, 24% estavam implantadas sem resultados relatados e apenas 10% estavam implantadas e produzindo resultados. Já nas práticas relacionadas à base tecnológica e funcional de suporte à gestão do conhecimento (Gráfico 2), nota-se que as ferramentas de tecnologia da informação (TI) são mais utilizadas, com 52% dos casos implantados, sendo 22% com resultados (BATISTA; QUANDT, 2015).
 
-Apesar desse potencial, foi feito um levantamento da literatura no Google Acadêmico, nos periódicos da CAPES e no repositório da ENAP, buscando palavras-chave como "docs as code" e "public administration", que retornou apenas três artigos internacionais, conforme apresentado na Tabela 1. A mesma pesquisa, com termos em português, não encontrou nenhum trabalho sobre o tema. Desses registros, apenas dois puderam ser consultados gratuitamente: um aborda *Docs as Code* apenas na arquitetura corporativa de TI em empresas (MAMEDGULIEV; TCUKANOVA, 2026), e outro trata de uma plataforma pública de participação democrática sem discutir a documentação como código (BARANDIARAN *et al.*, 2024). Portanto, essa lacuna justifica a pesquisa, que pretende contribuir tanto para os estudos de gestão do conhecimento quanto para os órgãos públicos que buscam preservar sua memória institucional.
+Gráfico 1 – Estágio de implantação das práticas de gestão do conhecimento relacionadas a processos nas 81 organizações pesquisadas em 2014 (%)
+
+![](../assets/grafico_processos.png)
+
+Fonte: Batista e Quandt (2015, p. 102).
+
+Gráfico 2 – Estágio de implantação das práticas de gestão do conhecimento relacionadas à tecnologia nas 81 organizações pesquisadas em 2014 (%)
+
+![](../assets/grafico_tecnologia.png)
+
+Fonte: Batista e Quandt (2015, p. 104).
+
+O resultado indica que apenas a disponibilização de ferramentas tecnológicas não garante uma gestão eficiente do conhecimento. O desafio está em integrar a tecnologia aos processos de trabalho, de modo que documentar se torne uma prática contínua e cultural. Nesse ponto, o *Docs as Code* pode contribuir, tratando a documentação com as mesmas práticas do desenvolvimento de software: o sistema de controle de versões funciona como um sistema de gestão de conteúdo (CMS), concentrando a documentação em um único repositório, com controle de acesso, revisão, fluxo de aprovação e publicação (GENTLE, 2023, p. 36).
+
+Apesar desse potencial, o tema ainda é pouco explorado. Um levantamento da literatura no Google Acadêmico, nos periódicos da CAPES e no repositório da ENAP, com palavras-chave como "*docs as code*", "*public administration*" e "*knowledge*", retornou apenas três artigos internacionais, conforme apresentado na Tabela 1. A mesma busca, com termos em português, não encontrou nenhum trabalho. Desses registros, apenas dois puderam ser consultados gratuitamente: um aborda *Docs as Code* apenas na arquitetura corporativa de TI em empresas (MAMEDGULIEV; TCUKANOVA, 2026), e o outro trata de uma plataforma pública de participação democrática, sem discutir a documentação como código (BARANDIARAN *et al.*, 2024).
+
+&nbsp;
+
+&nbsp;
 
 Tabela 1 – Resultados da busca bibliográfica
 
 | Termos de busca | Google Acadêmico | Periódicos CAPES | ENAP |
 | --- | :---: | :---: | :---: |
-| "Docs as code" AND "Administração Pública" AND Conhecimento | 0 | 0 | 0 |
+| "*Docs as code*" AND "Administração Pública" AND "Conhecimento" | 0 | 0 | 0 |
 | "Documentos como código" AND "Administração Pública" AND "Gestão do conhecimento" | 0 | 0 | 0 |
-| "Docs as code" AND "public administration" AND "knowledge" | 3\* | 0 | 0 |
+| "*Docs as code*" AND "*public administration*" AND "*knowledge*" | 3\* | 0 | 0 |
 
-Fonte: elaborado pelo autor, com base em busca realizada em 04 nov. 2026.\
+Fonte: Elaboração própria, com base em busca realizada em 04 nov. 2026.\
 \* Um dos registros não estava disponível para acesso.
+
+Essa lacuna justifica a pesquisa, que pretende contribuir para os estudos de gestão do conhecimento nos órgãos públicos, ao relacioná-los aos princípios e técnicas do *Docs as Code*, e para a prática dessas organizações, ao propor diretrizes que apoiem a preservação de sua memória institucional.
 
 # 4 OBJETO
 
 ## 4.1 Problema
 
-[De que maneira a adoção dos princípios e práticas de Docs as Code pode mitigar a perda de memória institucional e aprimorar a gestão do ciclo de vida do conhecimento explícito na Administração Pública?] - [Gentle (2023) e Mamedguliev e Tcukanova (2026)]
-
-[De acordo com o que foi apresentado, o objeto e a questão de pesquisa envolvem as boas práticas de integração de bases de dados desenvolvidas nos diferentes âmbitos da administração pública, que permitam identificar os pontos fortes e as oportunidades, bem como os pontos fracos e as ameaças das medidas que foram adotadas. Isso para que seja possível apontar quais ações devem ser tomadas pelo estado mineiro, considerando as suas particularidades institucionais, visando a cooperação entre os órgãos públicos para o compartilhamento de suas informações. E, dessa forma, espera-se que haja o melhor atendimento aos usuários dos serviços públicos, de modo que os cidadãos não precisem se preocupar em apresentar constantemente seus documentos.]
+[De que maneira a adoção dos princípios e práticas de *Docs as Code* pode mitigar a perda de memória institucional e aprimorar a gestão do ciclo de vida do conhecimento explícito na Administração Pública?] - [Gentle (2023) e Mamedguliev e Tcukanova (2026)]
 
 ## 4.2 Hipóteses
 
-[- controle de versão e tags (histórico recuperável)]
+Parte-se das seguintes hipóteses:
 
-[- visualização de mudanças (diff)]
+1) o controle de versões por meio de *commits*, *tags* e *releases*, além da criação de *branches* e *pull requests*, permite ao usuário manter um histórico organizado e recuperável da documentação (GENTLE, 2023, p. 168-170);
 
-[- automatização de construção de sites estáticos, testes para checar erros (como links, sintaxe, estilo, linguagem inclusiva...). Nesse caso, acho interessante para publicar manuais e POPs, que já ficam disponíveis para a população/demais servidores no momento em que o autor atualizar a documentação no Git]
+2) a visualização das alterações entre versões facilita a revisão dos documentos (GENTLE, 2023, p. 31) e a identificação de quem os alterou e do que foi modificado;
 
-[- proteção de quem pode alterar os documentos (apenas certos usuários cadastrados em times/na organização); além disso, é possível solicitar revisão de outra pessoa, que consegue fazer comentários em cada linha que houve alteração]
+3) a definição de quem pode alterar os documentos, aliada à solicitação de revisão por outra pessoa, que pode comentar cada linha alterada, aumenta a confiabilidade da documentação institucional e a proteção do acesso a ela (GENTLE, 2023, p. 144-146);
 
-[- as atividades de trabalho podem ser distribuídas em issues, visualizadas em painéis (opção de adicionar labels, milestone, associar com pull requests)]
+4) a automação da publicação e de testes, como a verificação de *links*, ortografia, estilo e linguagem inclusiva, permite que a documentação seja produzida com controle de qualidade e fique atualizada prontamente (GENTLE, 2023, p. 120-127);
 
-[- incentiva a comunicação assíncrona (documentável) - entra ainda essa questão da perda de conhecimento, devido a rotatividade]
+5) a distribuição das atividades, registradas em *issues* e acompanhadas em painéis, torna o trabalho mais transparente e preserva o histórico das discussões e decisões (GENTLE, 2023, p. 134-135);
 
-[- dificuldades: resistência cultural; Git pode ser difícil de ser aprendido; pode não ser aplicável em todos os casos (ex.: dados sensíveis)...]
+6) a comunicação assíncrona, por ocorrer de forma registrada nas próprias plataformas (GENTLE, 2023, p. 24-25), contribui para reduzir a perda de conhecimento decorrente da rotatividade de servidores;
+
+7) a adoção da abordagem pode enfrentar dificuldades, como a resistência cultural, a curva de aprendizado das ferramentas de versionamento e a inadequação a alguns contextos, como o tratamento de dados sensíveis.
 
 # 5 METODOLOGIA
 
 A pesquisa a ser desenvolvida se classifica como: básica, quanto à natureza; qualitativa, quanto à abordagem; e exploratória, quanto ao objetivo. No que se refere aos procedimentos, trata-se de uma pesquisa de abordagem teórica, que utilizará pesquisa bibliográfica e documental.
 
-Segundo Gerhardt e Silveira (2009, p. 36), o objetivo da pesquisa básica é "gerar conhecimentos novos, úteis para o avanço da Ciência, sem aplicação prática prevista". Dessa forma, a pesquisa buscará tratar da aplicação dos princípios Docs as Code na gestão do conhecimento da Administração Pública, propondo diretrizes de fluxo de trabalho, mas sem a pretensão de implementá-las em um órgão específico.
+Segundo Gerhardt e Silveira (2009, p. 34), o objetivo da pesquisa básica é "gerar conhecimentos novos, úteis para o avanço da Ciência, sem aplicação prática prevista". Dessa forma, a pesquisa buscará tratar da aplicação dos princípios *Docs as Code* na gestão do conhecimento da Administração Pública, propondo diretrizes de fluxo de trabalho, mas sem a pretensão de implementá-las em um órgão específico.
 
-Pode ser classificada também como uma pesquisa qualitativa, que trabalha mais com a subjetividade e menos com dados numéricos e estatísticos. Nesse sentido, busca analisar e interpretar a dinâmica das relações humanas (GERHARDT; SILVEIRA, 2009, p. 33-34). O que se enquadra na pesquisa, por ela não fazer uso de dados quantitativos para abordar o tema, dependendo da descrição e interpretação da literatura analisada.
+Pode ser classificada também como uma pesquisa qualitativa, que "não se preocupa com representatividade numérica,
+mas, sim, com o aprofundamento da compreensão de um grupo social, de uma organização, etc." (GERHARDT; SILVEIRA, 2009, p. 31-32). O que se enquadra na pesquisa, por ela não fazer uso de dados quantitativos para abordar o tema, dependendo da descrição e interpretação da literatura analisada.
 
 Quanto aos objetivos, trata-se de uma pesquisa exploratória, que busca "proporcionar maior familiaridade com o
-problema, com vistas a torná-lo mais explícito ou a constituir hipóteses" (GIL, 2002, p. 41), o que se justifica pela ausência de estudos que relacionem Docs as Code à Administração Pública.
+problema, com vistas a torná-lo mais explícito ou a constituir hipóteses" (GIL, 2002, p. 41), o que se justifica pela ausência de estudos que relacionem *Docs as Code* à Administração Pública.
 
-Inicialmente, para construir o referencial teórico da pesquisa, será realizada uma pesquisa bibliográfica, ou de fontes secundárias, que já foram publicadas. Para isso, serão buscados livros, artigos, documentações técnicas e sites sobre gestão do conhecimento, memória institucional e Docs as Code. Aliado a isso, pretende-se realizar uma pesquisa documental, ou seja, a coleta de dados a partir de uma fonte primária de documentos, escritos ou não. Nesse caso, serão documentos institucionais e técnicos produzidos por órgãos públicos que tratam da produção, do versionamento e da disseminação de sua documentação (MARCONI; LAKATOS, 2010, p. 157-168).
+Inicialmente, para construir o referencial teórico da pesquisa, será realizada uma pesquisa bibliográfica, ou de fontes secundárias, que já foram publicadas. Para isso, serão buscados livros, artigos, documentações técnicas e sites sobre gestão do conhecimento, memória institucional e *Docs as Code*. Aliado a isso, pretende-se realizar uma pesquisa documental, ou seja, a coleta de dados a partir de uma fonte primária de documentos, escritos ou não. Nesse caso, serão documentos institucionais e técnicos produzidos por órgãos públicos que tratam da produção, do versionamento e da disseminação de sua documentação (MARCONI; LAKATOS, 2010, p. 157-168).
 
-O objetivo, ao final da coleta e sistematização dos dados, é analisar qualitativamente as informações levantadas, relacionando as práticas de Docs as Code às etapas de gestão do conhecimento. A partir dessa análise, pretende-se identificar benefícios, dificuldades e desvantagens da adoção dessa abordagem e propor diretrizes de fluxo de trabalho voltadas à atualização contínua da documentação institucional.
+O objetivo, ao final da coleta e sistematização dos dados, é analisar qualitativamente as informações levantadas, relacionando as práticas de *Docs as Code* às etapas de gestão do conhecimento. A partir dessa análise, pretende-se identificar benefícios, dificuldades e desvantagens da adoção dessa abordagem e propor diretrizes de fluxo de trabalho voltadas à atualização contínua da documentação institucional.
 
 # 6 EMBASAMENTO TEÓRICO
 
@@ -135,7 +156,7 @@ Quadro 1 – Cronograma da pesquisa
 | 3 Leitura e fichamento da bibliografia | | X | X | X | | |
 | 4 Redação do referencial teórico | | | X | X | | |
 | 5 Análise qualitativa da literatura e dos documentos | | | | X | X | |
-| 6 Elaboração das diretrizes de fluxo de trabalho em Docs as Code | | | | | X | |
+| 6 Elaboração das diretrizes de fluxo de trabalho em *Docs as Code* | | | | | X | |
 | 7 Redação da introdução e da conclusão | | | | | X | |
 | 8 Revisão e normalização do trabalho | | | | | X | X |
 | 9 Apresentação da monografia | | | | | | X |
@@ -146,9 +167,11 @@ Fonte: Elaboração própria (2026).
 
 BARANDIARAN, Xabier E. *et al.* **Decidim, a technopolitical network for participatory democracy**: philosophy, practice and autonomy of a collective platform in the age of digital intelligence. Cham: Springer, 2024. (SpringerBriefs in Political Science).
 
-GENTLE, Anne. **Docs like code**: collaborate and automate to improve technical documentation. 3. ed. Austin: Just Write Click, 2023.
+BATISTA, Fábio Ferreira; QUANDT, Carlos Olavo. **Gestão do conhecimento na administração pública**: resultados da Pesquisa Ipea 2014 – práticas de gestão do conhecimento. Brasília: Ipea, 2015. (Texto para Discussão, n. 2120).
 
-GERHARDT, Tatiana Engel; SILVEIRA, Denise Tolfo. **Métodos de pesquisa**. Porto Alegre: Editora da UFRGS, 2009. Disponível em: http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf. Acesso em: 11 mai. 2023.
+GENTLE, Anne. **Docs like code**: collaborate and automate to improve technical documentation. 3. ed. Austin: Just Write Click, 2023. E-book.
+
+GERHARDT, Tatiana Engel; SILVEIRA, Denise Tolfo. **Métodos de pesquisa**. Porto Alegre: Editora da UFRGS, 2009. Disponível em: https://lume.ufrgs.br/handle/10183/52806. Acesso em: 06 nov. 2026.
 
 GIL, Antônio Carlos. **Como elaborar projetos de pesquisa**. 4. ed. São Paulo: Atlas, 2002.
 
