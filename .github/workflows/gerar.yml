@@ -1,8 +1,12 @@
 name: Gerar documento
+run-name: docs
 
 on:
   push:
     branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   gerar:
@@ -19,3 +23,9 @@ jobs:
         with:
           name: projeto
           path: "projeto/Projeto - Maria Eduarda.docx"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f "projeto/Projeto - Maria Eduarda.docx"
+          git commit -m "Atualiza documento gerado" || exit 0
+          git push
