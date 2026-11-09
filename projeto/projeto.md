@@ -90,7 +90,9 @@ Essa lacuna justifica a pesquisa, que pretende contribuir para os estudos de ges
 
 ## 4.1 Problema
 
-[De que maneira a adoção dos princípios e práticas de *Docs as Code* pode mitigar a perda de memória institucional e aprimorar a gestão do ciclo de vida do conhecimento explícito na Administração Pública?] - [Gentle (2023) e Mamedguliev e Tcukanova (2026)]
+Diante do exposto, observa-se que a perda de conhecimento no setor público está relacionada não apenas à saída de servidores, mas também à dificuldade de registrar, atualizar e preservar a documentação institucional. Assim, a pesquisa busca responder à seguinte questão:
+
+De que maneira a adoção dos princípios e práticas de *Docs as Code* pode mitigar a perda de memória institucional e aprimorar a gestão do ciclo de vida do conhecimento explícito na Administração Pública?
 
 ## 4.2 Hipóteses
 
@@ -134,11 +136,11 @@ O objetivo, ao final da coleta e sistematização dos dados, é analisar qualita
 
 - CONCEITOS - Citar Davenport e Prusak e Nonaka e Takeuchi
 - PRINCÍPIOS
-- GC NA ADMINISTRAÇÃO PÚBLICA - Ripoli, Martello e Bussadori (2022), Silva e Souza (2025) e Rodrigues (2026)
+- GC NA ADMINISTRAÇÃO PÚBLICA - Citar Ripoli, Martello e Bussadori (2022) e Rodrigues (2026)
 
 ### DOCS AS CODE
 
-- CONCEITOS - Gentle (2023)
+- CONCEITOS - Citar Gentle (2023)
 - PRINCÍPIOS
 
 ### DOCS AS CODE E ADMINISTRAÇÃO PÚBLICA (O PRINCIPAL DO SEU TRABALHO)
@@ -169,7 +171,7 @@ BARANDIARAN, Xabier E. *et al.* **Decidim, a technopolitical network for partici
 
 BATISTA, Fábio Ferreira; QUANDT, Carlos Olavo. **Gestão do conhecimento na administração pública**: resultados da Pesquisa Ipea 2014 – práticas de gestão do conhecimento. Brasília: Ipea, 2015. (Texto para Discussão, n. 2120).
 
-GENTLE, Anne. **Docs like code**: collaborate and automate to improve technical documentation. 3. ed. Austin: Just Write Click, 2023. E-book.
+GENTLE, Anne. **Docs like code**: collaborate and automate to improve technical documentation. 3. ed. Austin: Just Write Click, 2023. E-book (185 p.).
 
 GERHARDT, Tatiana Engel; SILVEIRA, Denise Tolfo. **Métodos de pesquisa**. Porto Alegre: Editora da UFRGS, 2009. Disponível em: https://lume.ufrgs.br/handle/10183/52806. Acesso em: 06 nov. 2026.
 
