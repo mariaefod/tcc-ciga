@@ -9,6 +9,7 @@ dependencies = [
     "python-docx>=1.1",
     "mkslides>=2.0.15,<3",
     "taskipy>=1.14.1,<2",
+    "pyyaml (>=6.0)",
 ]
 
 [tool.poetry]
