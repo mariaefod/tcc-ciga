@@ -1,3 +1,4 @@
+import yaml
 import docx
 from docx.enum.section import WD_SECTION
 from docx.enum.table import WD_TABLE_ALIGNMENT
@@ -16,10 +17,10 @@ PRE_TEXTUAIS_CORRIDOS = ('RESUMO', 'ABSTRACT')
 
 texto = (PASTA / 'projeto.md').read_text(encoding='utf-8')
 _, cabecalho, corpo = texto.split('---\n', 2)
-dados = dict(linha.split(': ', 1) for linha in cabecalho.strip().splitlines())
+dados = yaml.safe_load(cabecalho)
 
 documento = docx.Document()
-aplicar(documento)
+aplicar(documento, ajustes=dados.get('estilos', {}))
 quebrar = False
 
 
@@ -46,7 +47,7 @@ for pagina in paginas:
         p.paragraph_format.space_before = Pt(antes)
         if chave == 'orientadora':
             p.add_run('Orientadora: ')
-        p.add_run(dados[chave])
+        p.add_run(str(dados[chave]))
         if chave == 'titulo' and 'subtitulo' in dados:
             p.add_run(': ')
             p.add_run(dados['subtitulo']).font.all_caps = False

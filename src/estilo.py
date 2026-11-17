@@ -84,9 +84,9 @@ FOLHA_DE_ROSTO = {
 }
 
 
-def aplicar(documento):
+def aplicar(documento, ajustes):
     for nome, valores in ESTILOS.items():
-        v = {**PADRAO, **valores}
+        v = {**PADRAO, **valores, **ajustes.get(nome, {})}
         if nome in documento.styles:
             s = documento.styles[nome]
         else:
