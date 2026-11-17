@@ -1,0 +1,11 @@
+index:
+  enable_footer: true
+  title: Apresentações do TCC
+
+slides:
+  theme: solarized
+  charset: utf-8
+
+  separator: <!--s-->
+  separator_vertical: <!--v-->
+  separator_notes: "^Notes?:"
