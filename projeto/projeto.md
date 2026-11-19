@@ -2,12 +2,18 @@
 instituicao: FUNDAÇÃO JOÃO PINHEIRO
 escola: Escola de Governo Professor Paulo Neves de Carvalho
 autor: Maria Eduarda Ferreira Oliveira Duque
-titulo: DOCS AS CODE NA ADMINISTRAÇÃO PÚBLICA
-subtitulo: colaboração, versionamento e transparência na gestão da documentação institucional
+titulo: DOCUMENTAÇÃO COMO CÓDIGO
+subtitulo: uma abordagem para a gestão do conhecimento no setor público
 natureza: Projeto de Monografia apresentado ao Curso de Pós-graduação em Inovação, Estratégia e Gestão Pública Avançada da Escola de Governo Professor Paulo Neves de Carvalho da Fundação João Pinheiro.
 orientadora: Renata de Souza França.
 cidade: Belo Horizonte
 ano: 2026
+
+estilos:
+  Normal:
+    recuo: 2.25
+  Heading 1:
+    nova_pagina: false
 ---
 
 
@@ -17,13 +23,15 @@ ano: 2026
 
 A gestão do conhecimento, que inclui captar, difundir e compartilhar informações, é essencial para que uma organização, seja ela privada ou pública, ganhe eficiência, promova inovação, aprimore a tomada de decisão e alcance seus objetivos, de forma dinâmica e em adaptação constante. Para isso, torna-se necessário desenvolver uma cultura de comunicação aberta e fluida, bem como incentivar a interação entre colaboradores, sistemas e recursos organizacionais, com confiança, empatia e alinhamento de objetivos, de modo a criar ambientes que favoreçam a experimentação e o diálogo (SILVA; SOUZA, 2025, p. 64-68).
 
-Entretanto, entre os principais desafios do setor público está a perda de conhecimento tácito, agravada pela alta rotatividade de servidores, pelas aposentadorias, pelas mudanças de gestão e pelas barreiras burocráticas, bem como pela ausência de uma cultura voltada à aprendizagem organizacional continuada e à inovação (SILVA; SOUZA, 2025, p. 70). A limitação de conhecimento sobre processos de gestão da informação, a falta de recursos humanos e orçamentários e o uso de linguagem própria e técnica de cada setor também podem ser elencados como desafios para a implementação de sistemas de gerenciamento do conhecimento (SCLESINGER *et al.*, 2008 apud RIPOLI; MARTELLO; BUSSADORI, 2022, p. 2).
+Entretanto, no caso do setor público, entre os principais desafios está a perda de conhecimento tácito, agravada pela alta rotatividade de servidores, pelas aposentadorias, pelas mudanças de gestão e pelas barreiras burocráticas, bem como pela ausência de uma cultura voltada à aprendizagem organizacional continuada e à inovação (SILVA; SOUZA, 2025, p. 70). A limitação de conhecimento sobre processos de gestão da informação, a falta de recursos humanos e orçamentários e o uso de linguagem própria e técnica de cada setor também podem ser elencados como desafios para a implementação de sistemas de gerenciamento do conhecimento (SCLESINGER *et al.*, 2008 apud RIPOLI; MARTELLO; BUSSADORI, 2022, p. 2).
 
 Esse cenário impacta negativamente a prestação dos serviços públicos e o atendimento das demandas da população por qualidade, diversidade, continuidade, transparência e inovação (SILVA; SOUZA, 2025, p. 71). Pode-se ainda dizer que a ausência de gestão do conhecimento gera ineficiência nos gastos públicos e na administração, além de contribuir para o fracasso na implantação de programas (RIPOLI; MARTELLO; BUSSADORI, 2022, p. 13).
 
 Portanto, para enfrentar esse cenário, torna-se essencial a utilização de ferramentas, sistemas e métodos de gestão do conhecimento, como os sistemas de gestão de conteúdo (*Content Management System* – CMS), as plataformas colaborativas (redes corporativas e *wikis*), as bases de dados e repositórios de conhecimento e as ferramentas de aprendizado *online* (SILVA; SOUZA, 2025, p. 67-69). Segundo FIA (2009 apud RIBEIRO; IZQUIERDO, 2017, p. 67-73), pode-se elencar ainda técnicas como: redes de pessoas, páginas amarelas, comunidades de práticas, divulgação de práticas relevantes, registro de lições aprendidas, *brainstorming*, *storytelling*, entrevistas de saída, mapas de conhecimento, *coaching* e repositórios de conhecimento.
 
 Nesse contexto, destaca-se a abordagem *Docs as Code*, que se apresenta como uma alternativa para a gestão da documentação institucional. Segundo Gentle (2023), tratar a documentação como código significa armazenar os arquivos em um sistema de controle de versões, gerar documentos automaticamente, submetê-los à revisão de pessoas de confiança e publicá-los com pouca intervenção manual. Além disso, a abordagem favorece o trabalho remoto e a comunicação assíncrona, uma vez que as notificações e as ferramentas das plataformas de versionamento facilitam a distribuição do trabalho de forma colaborativa (GENTLE, 2023). Como cada tarefa distribuída fica registrada na plataforma, com seu responsável, sua discussão e as alterações realizadas, esse histórico permanece disponível mesmo após a saída do autor, o que pode contribuir para reduzir a perda de memória institucional.
+
+&nbsp;
 
 # 2 OBJETIVO
 
@@ -47,44 +55,19 @@ Para alcançar o objetivo geral, a pesquisa terá como objetivos específicos:
 
 4) propor diretrizes práticas de fluxo de trabalho baseado em *Docs as Code*, voltado à sustentabilidade e atualização contínua da documentação institucional.
 
+&nbsp;
+
 # 3 JUSTIFICATIVA
 
 No setor público, um dos problemas enfrentados é a descontinuidade dos processos administrativos e o risco de perda de capital intelectual, decorrentes da rotatividade e da aposentadoria de servidores que detêm o conhecimento técnico, sem que esse saber seja repassado aos demais. Para reverter esse cenário e garantir a manutenção do conhecimento apesar das mudanças, é importante instituir a aprendizagem organizacional, que cria uma memória institucional por meio de ferramentas e técnicas de gestão do conhecimento (RODRIGUES, 2026). Porém, para que essa memória se forme, deve-se registrar o conhecimento, o que nem sempre ocorre na prática.
 
-Essa dificuldade pode ser observada por meio da pesquisa do Ipea realizada em 2014 com 81 organizações da administração pública federal. Nas práticas relacionadas a processos facilitadores da gestão do conhecimento (Gráfico 1), não havia planos de implantação em 35% dos casos, 31% estavam em implantação ou planejamento, 24% estavam implantadas sem resultados relatados e apenas 10% estavam implantadas e produzindo resultados. Já nas práticas relacionadas à base tecnológica e funcional de suporte à gestão do conhecimento (Gráfico 2), nota-se que as ferramentas de tecnologia da informação (TI) são mais utilizadas, com 52% dos casos implantados, sendo 22% com resultados (BATISTA; QUANDT, 2015).
+Essa dificuldade pode ser observada por meio da pesquisa do Ipea realizada em 2014 com 81 organizações da administração pública federal. Nas práticas relacionadas a processos facilitadores da gestão do conhecimento, não havia planos de implantação em 35% dos casos, 31% estavam em implantação ou planejamento, 24% estavam implantadas sem resultados relatados e apenas 10% estavam implantadas e produzindo resultados. Já nas práticas relacionadas à base tecnológica e funcional de suporte à gestão do conhecimento, nota-se que as ferramentas de tecnologia da informação (TI) são mais utilizadas, com 52% dos casos implantados, sendo 22% com resultados (BATISTA; QUANDT, 2015).
 
-Gráfico 1 – Estágio de implantação das práticas de gestão do conhecimento relacionadas a processos nas 81 organizações pesquisadas em 2014 (%)
+O resultado indica que a disponibilização de ferramentas tecnológicas não garante, por si só, uma gestão eficiente do conhecimento. O desafio está em integrar a tecnologia aos processos de trabalho, de modo que documentar se torne uma prática contínua e cultural. Nesse ponto, o *Docs as Code* pode contribuir, ao tratar a documentação com as mesmas práticas do desenvolvimento de *software*: o sistema de controle de versões passa a funcionar como um sistema de gestão de conteúdo (CMS), oferecendo controle de acesso, gerenciamento dos arquivos, revisão, fluxo de aprovação e publicação (GENTLE, 2023, p. 36).
 
-![](../assets/grafico_processos.png)
-
-Fonte: Batista e Quandt (2015, p. 102).
-
-Gráfico 2 – Estágio de implantação das práticas de gestão do conhecimento relacionadas à tecnologia nas 81 organizações pesquisadas em 2014 (%)
-
-![](../assets/grafico_tecnologia.png)
-
-Fonte: Batista e Quandt (2015, p. 104).
-
-O resultado indica que apenas a disponibilização de ferramentas tecnológicas não garante uma gestão eficiente do conhecimento. O desafio está em integrar a tecnologia aos processos de trabalho, de modo que documentar se torne uma prática contínua e cultural. Nesse ponto, o *Docs as Code* pode contribuir, tratando a documentação com as mesmas práticas do desenvolvimento de software: o sistema de controle de versões funciona como um sistema de gestão de conteúdo (CMS), concentrando a documentação em um único repositório, com controle de acesso, revisão, fluxo de aprovação e publicação (GENTLE, 2023, p. 36).
-
-Apesar desse potencial, o tema ainda é pouco explorado. Um levantamento da literatura no Google Acadêmico, nos periódicos da CAPES e no repositório da ENAP, com palavras-chave como "*docs as code*", "*public administration*" e "*knowledge*", retornou apenas três artigos internacionais, conforme apresentado na Tabela 1. A mesma busca, com termos em português, não encontrou nenhum trabalho. Desses registros, apenas dois puderam ser consultados gratuitamente: um aborda *Docs as Code* apenas na arquitetura corporativa de TI em empresas (MAMEDGULIEV; TCUKANOVA, 2026), e o outro trata de uma plataforma pública de participação democrática, sem discutir a documentação como código (BARANDIARAN *et al.*, 2024).
+Apesar desse potencial, o tema ainda é pouco explorado. Um levantamento da literatura no Google Acadêmico, nos periódicos da CAPES e no repositório da ENAP, com palavras-chave como "*docs as code*", "*public administration*" e "*knowledge*", retornou apenas três artigos internacionais e nenhum trabalho em português. Dos registros encontrados, apenas dois puderam ser consultados gratuitamente: um aborda *Docs as Code* apenas na arquitetura corporativa de TI em empresas (MAMEDGULIEV; TCUKANOVA, 2026), e o outro trata de uma plataforma pública de participação democrática, sem discutir a documentação como código (BARANDIARAN *et al.*, 2024). Essa lacuna justifica a pesquisa, que pretende contribuir para os estudos de gestão do conhecimento nos órgãos públicos, ao relacioná-los aos princípios e técnicas do *Docs as Code*, e para a prática dessas organizações, ao propor diretrizes que apoiem a preservação de sua memória institucional.
 
 &nbsp;
-
-&nbsp;
-
-Tabela 1 – Resultados da busca bibliográfica
-
-| Termos de busca | Google Acadêmico | Periódicos CAPES | ENAP |
-| --- | :---: | :---: | :---: |
-| "*Docs as code*" AND "Administração Pública" AND "Conhecimento" | 0 | 0 | 0 |
-| "Documentos como código" AND "Administração Pública" AND "Gestão do conhecimento" | 0 | 0 | 0 |
-| "*Docs as code*" AND "*public administration*" AND "*knowledge*" | 3\* | 0 | 0 |
-
-Fonte: Elaboração própria, com base em busca realizada em 04 nov. 2026.\
-\* Um dos registros não estava disponível para acesso.
-
-Essa lacuna justifica a pesquisa, que pretende contribuir para os estudos de gestão do conhecimento nos órgãos públicos, ao relacioná-los aos princípios e técnicas do *Docs as Code*, e para a prática dessas organizações, ao propor diretrizes que apoiem a preservação de sua memória institucional.
 
 # 4 OBJETO
 
@@ -96,21 +79,15 @@ De que maneira a adoção dos princípios e práticas de *Docs as Code* pode mit
 
 ## 4.2 Hipóteses
 
-Parte-se das seguintes hipóteses:
+Parte-se da hipótese de que a adoção do *Docs as Code* pode contribuir para a preservação da memória institucional na Administração Pública. O controle de versões permite manter um histórico organizado e recuperável da documentação (GENTLE, 2023, p. 168-170), e a visualização das alterações facilita a revisão dos documentos (GENTLE, 2023, p. 31).
 
-1) o controle de versões por meio de *commits*, *tags* e *releases*, além da criação de *branches* e *pull requests*, permite ao usuário manter um histórico organizado e recuperável da documentação (GENTLE, 2023, p. 168-170);
+A definição de quem pode alterar os documentos, aliada à revisão por outra pessoa, aumenta a confiabilidade da documentação institucional (GENTLE, 2023, p. 144-146), enquanto a automação da publicação e de testes permite que ela seja produzida com controle de qualidade e mantida atualizada (GENTLE, 2023, p. 120-127).
 
-2) a visualização das alterações entre versões facilita a revisão dos documentos (GENTLE, 2023, p. 31) e a identificação de quem os alterou e do que foi modificado;
+Além disso, a distribuição das atividades em tarefas registradas (GENTLE, 2023, p. 134-135) e a comunicação assíncrona nas próprias plataformas (GENTLE, 2023, p. 24-25) preservam o histórico das discussões e decisões, reduzindo a perda de conhecimento decorrente da rotatividade de servidores.
 
-3) a definição de quem pode alterar os documentos, aliada à solicitação de revisão por outra pessoa, que pode comentar cada linha alterada, aumenta a confiabilidade da documentação institucional e a proteção do acesso a ela (GENTLE, 2023, p. 144-146);
+Por outro lado, supõe-se que a adoção da abordagem enfrente dificuldades, como a resistência cultural, a curva de aprendizado das ferramentas de versionamento e a inadequação a alguns contextos, como o tratamento de dados sensíveis.
 
-4) a automação da publicação e de testes, como a verificação de *links*, ortografia, estilo e linguagem inclusiva, permite que a documentação seja produzida com controle de qualidade e fique atualizada prontamente (GENTLE, 2023, p. 120-127);
-
-5) a distribuição das atividades, registradas em *issues* e acompanhadas em painéis, torna o trabalho mais transparente e preserva o histórico das discussões e decisões (GENTLE, 2023, p. 134-135);
-
-6) a comunicação assíncrona, por ocorrer de forma registrada nas próprias plataformas (GENTLE, 2023, p. 24-25), contribui para reduzir a perda de conhecimento decorrente da rotatividade de servidores;
-
-7) a adoção da abordagem pode enfrentar dificuldades, como a resistência cultural, a curva de aprendizado das ferramentas de versionamento e a inadequação a alguns contextos, como o tratamento de dados sensíveis.
+&nbsp;
 
 # 5 METODOLOGIA
 
@@ -128,22 +105,37 @@ Inicialmente, para construir o referencial teórico da pesquisa, será realizada
 
 O objetivo, ao final da coleta e sistematização dos dados, é analisar qualitativamente as informações levantadas, relacionando as práticas de *Docs as Code* às etapas de gestão do conhecimento. A partir dessa análise, pretende-se identificar benefícios, dificuldades e desvantagens da adoção dessa abordagem e propor diretrizes de fluxo de trabalho voltadas à atualização contínua da documentação institucional.
 
+&nbsp;
+
 # 6 EMBASAMENTO TEÓRICO
 
-[Esse é o esqueleto do trabalho final. Aqui no projeto é bem sucinto.]
+## 6.1 Gestão do conhecimento na Administração Pública
 
-### GESTÃO DO CONHECIMENTO E ADMINISTRAÇÃO PÚBLICA
+O modelo de Davenport e Prusak (1998), que situa a gestão do conhecimento sob a perspectiva do mercado, propõe três processos: a geração, a codificação e coordenação e a transferência do conhecimento, que pode estar nas pessoas (tácito) ou registrado em processos e documentos (explícito). Os modos de geração do conhecimento organizacional incluem a "aquisição, aluguel, recursos dedicados, fusão, adaptação e redes de conhecimento" (CORRÊA; FRANÇA; ZIVIANI, 2018, p. 53). Depois de gerado, o conhecimento deve ser codificado em formatos que possam ser compartilhados, armazenados e combinados, de forma acessível e útil aos demais e orientada aos objetivos da organização. Por fim, a transmissão e a absorção do conhecimento acontecem naturalmente e podem ser incentivadas por conversas, feiras e fóruns, mas dependem de uma cultura de compartilhamento na organização (CORRÊA; FRANÇA; ZIVIANI, 2018, p. 54-56).
 
-- CONCEITOS - Citar Davenport e Prusak e Nonaka e Takeuchi
-- PRINCÍPIOS
-- GC NA ADMINISTRAÇÃO PÚBLICA - Citar Ripoli, Martello e Bussadori (2022) e Rodrigues (2026)
+Por sua vez, Nonaka e Takeuchi (1997) propõem um modelo genérico de criação do conhecimento organizacional, baseado na interação entre os conhecimentos tácito e explícito. A partir da interação entre os indivíduos, o conhecimento tácito pode ser convertido em explícito, na forma de um novo conceito, que deve ser validado e combinado com o conhecimento já registrado. O processo se repete, ampliando o conhecimento para outros níveis organizacionais e integrando-o ao fluxo de trabalho de modo claro e sistemático (CORRÊA *et al.*, 2019, p. 151-153).
 
-### DOCS AS CODE
+> Sob o enfoque do conhecimento tácito, o *framework* de Nonaka e Takeuchi (1997) apresenta cinco fases do processo de criação do conhecimento: 1) compartilhamento do conhecimento tácito; 2) criação de conceitos; 3) justificação de conceitos; 4) construção de um arquétipo; e 5) difusão interativa do conhecimento, as quais utilizam os modos de conversão do conhecimento SECI [Socialização, Externalização, Combinação e Internalização], aliados às cinco condições capacitadoras [intenção, autonomia, flutuação/caos criativo, redundância e variedade de requisitos] [...] (CORRÊA *et al.*, 2019, p. 150).
 
-- CONCEITOS - Citar Gentle (2023)
-- PRINCÍPIOS
+Entretanto, o setor público possui finalidades diferentes das do setor privado, uma vez que busca gerar valor para a sociedade e atender aos seus interesses a partir de recursos públicos, o que torna necessária uma abordagem própria de gestão do conhecimento (RIBEIRO; IZQUIERDO, 2017, p. 58-63). Além disso, devem ser considerados os problemas característicos dessas organizações relacionados à gestão interna do conhecimento, como a rigidez de regulamentos e regras, a concentração do conhecimento em poucas pessoas, o uso intensivo das Tecnologias da Informação e Comunicação (TICs) sem uma cultura organizacional apropriada e a despreocupação dos dirigentes em preservar a memória organizacional (RIBEIRO; IZQUIERDO, 2017, p. 64-65). Em relação aos cidadãos e aos servidores, destacam-se a perda de foco no cidadão, a padronização de políticas públicas, o desperdício do conhecimento de servidores cuja formação excede as necessidades de seus cargos e a ausência de formação profissional continuada (RIBEIRO; IZQUIERDO, 2017, p. 66).
 
-### DOCS AS CODE E ADMINISTRAÇÃO PÚBLICA (O PRINCIPAL DO SEU TRABALHO)
+## 6.2 Abordagem do *Docs as Code*
+
+A abordagem *Docs as Code* parte da ideia de que a documentação pode ser produzida com as mesmas ferramentas e fluxos de trabalho utilizados pelos desenvolvedores de *software*. Dessa forma, é possível criar, revisar e testar, de forma colaborativa, documentos abertos ou corporativos, além de automatizar sua publicação, tal como um código costuma ser produzido (GENTLE, 2023, p. 19). Entre as vantagens estão o uso de um sistema de controle de versões, os comentários feitos nas próprias linhas do texto, a publicação de sites estáticos e interativos e a possibilidade de contribuições de terceiros (GENTLE, 2023, p. 20-23). Além disso, a abordagem responde a necessidades recentes das organizações, como o trabalho distribuído, com técnicas de trabalho remoto e assíncrono, a adaptação às novas oportunidades tecnológicas, a busca por ferramentas com melhor relação custo-benefício e o atendimento às expectativas dos leitores (GENTLE, 2023, p. 24-27).
+
+Essas práticas se relacionam com os processos de gestão do conhecimento, uma vez que, ao registrar o que sabe em um repositório compartilhado, o colaborador transforma parte de sua experiência em conhecimento explícito, que passa a ser armazenado, versionado e recuperável. A revisão, por sua vez, funciona como um momento de validação e de troca, em que outras pessoas analisam, questionam e complementam o conteúdo antes de ele ser incorporado à versão final (GENTLE, 2023, p. 31). Os leitores também participam desse processo, pois podem registrar erros, problemas e sugestões de melhoria na documentação (GENTLE, 2023, p. 30). Assim, ao incentivar a contribuição de pessoas de diferentes equipes e especialidades, a abordagem evita que o conhecimento fique concentrado em poucas pessoas.
+
+Para além dos processos previstos pela gestão do conhecimento, o *Docs as Code* apresenta como diferencial a automação, por meio da definição de testes e da publicação automática, que garantem a qualidade do texto e tornam o resultado acessível a quem precisar dele, de forma contínua (GENTLE, 2023, p. 33-34). Ainda assim, o *Docs as Code* não resolve todas as dificuldades da documentação e deve ser analisado caso a caso, pois pode gerar mais trabalho, ser complexo e não ser adequado a alguns contextos, exigindo planejamento e pessoas que compreendam o fluxo de trabalho (GENTLE, 2023, p. 20).
+
+## 6.3 Aplicação do *Docs as Code* na Administração Pública
+
+Embora tenha surgido no desenvolvimento de *software*, o *Docs as Code* também pode ser aplicado em organizações governamentais, possibilidade levantada pela própria Gentle (2023, p. X). Um exemplo é o Government Digital Service (GDS), órgão vinculado ao Cabinet Office do Reino Unido, responsável por desenvolver produtos e serviços utilizados pelo restante do governo, como plataformas de pagamento e de hospedagem. Antes da adoção da abordagem, pesquisas com usuários mostravam que a documentação desses produtos tinha desempenho muito ruim: era inconsistente, publicada em locais diferentes ou nem sequer publicada, chegando a circular apenas como PDF anexado a *e-mails*. Os desenvolvedores queriam contribuir, mas não conseguiam, pois os documentos estavam presos em ferramentas proprietárias, em repositórios fechados ou em arquivos dos quais ninguém possuía a versão original. Como consequência, a documentação não acompanhava o desenvolvimento dos produtos, e gastava-se muito com suporte para responder a dúvidas básicas (LAMBOURNE, 2019).
+
+Sem recursos para adquirir uma ferramenta proprietária e diante da impossibilidade de novas contratações, a equipe de redação técnica começou com um pequeno experimento e contou com o apoio dos desenvolvedores. A abordagem também precisou ser defendida junto aos dirigentes, que questionavam o tempo dedicado às ferramentas em vez do conteúdo, o que foi feito por meio da demonstração de que ela permitiria reduzir os custos de suporte e receber contribuições de todo o governo. A documentação passou a ser armazenada no GitHub, já utilizado pelos desenvolvedores, e publicada por um gerador de sites estáticos, com a revisão obrigatória de um redator técnico ou de um desenvolvedor líder antes da incorporação de qualquer alteração. Documentos antigos, extensos e desatualizados foram reescritos em linguagem simples antes de serem migrados, e, para lidar com as dificuldades no uso do Git, desenvolvedores e redatores passaram a trocar conhecimentos em sessões de capacitação mútua (LAMBOURNE, 2019). A ferramenta resultante, lançada em 2017, passou a ser oferecida a outros órgãos do governo britânico (GLASSMAN, 2018).
+
+Como resultado, os usuários passaram a encontrar as informações com mais facilidade, os custos e os chamados de suporte diminuíram significativamente e os desenvolvedores passaram a contribuir de forma mais rápida e simples, ainda que permanecessem desafios, como a adequação às novas regras de acessibilidade e a automação das verificações de estilo (LAMBOURNE, 2019). A experiência se expandiu para outros departamentos, como o Ministry of Justice e o Home Office (LAMBOURNE, 2019). Este último assumiu, em sua estratégia digital de 2024, o compromisso de implementar o *Docs as Code* para que a documentação se desenvolva em conjunto com os produtos, e o transformou em padrão de engenharia, que prevê o controle de versões, o acompanhamento das tarefas de documentação junto às demais atividades, a revisão das alterações e a possibilidade de bloquear entregas que não tenham a documentação correspondente (REINO UNIDO, 2025).
+
+&nbsp;
 
 # 7 CRONOGRAMA
 
@@ -165,11 +157,17 @@ Quadro 1 – Cronograma da pesquisa
 
 Fonte: Elaboração própria (2026).
 
+&nbsp;
+
 # REFERÊNCIAS
 
 BARANDIARAN, Xabier E. *et al.* **Decidim, a technopolitical network for participatory democracy**: philosophy, practice and autonomy of a collective platform in the age of digital intelligence. Cham: Springer, 2024. (SpringerBriefs in Political Science).
 
 BATISTA, Fábio Ferreira; QUANDT, Carlos Olavo. **Gestão do conhecimento na administração pública**: resultados da Pesquisa Ipea 2014 – práticas de gestão do conhecimento. Brasília: Ipea, 2015. (Texto para Discussão, n. 2120).
+
+CORRÊA, Fábio; FRANÇA, Renata de Souza; ZIVIANI, Fabrício. A gestão do conhecimento holística: análise de aderência do modelo de Davenport e Prusak (1998). **Brazilian Journal of Information Studies**: Research Trends, Marília, v. 12, n. 3, p. 49-63, 2018.
+
+CORRÊA, Fábio *et al.* A gestão do conhecimento holística: análise de aderência do modelo de Nonaka e Takeuchi (1997). **Ciência da Informação**, Brasília, DF, v. 48, n. 1, p. 144-158, jan./abr. 2019.
 
 GENTLE, Anne. **Docs like code**: collaborate and automate to improve technical documentation. 3. ed. Austin: Just Write Click, 2023. E-book (185 p.).
 
@@ -177,9 +175,13 @@ GERHARDT, Tatiana Engel; SILVEIRA, Denise Tolfo. **Métodos de pesquisa**. Porto
 
 GIL, Antônio Carlos. **Como elaborar projetos de pesquisa**. 4. ed. São Paulo: Atlas, 2002.
 
+GLASSMAN, Jonathan. Updating the GDS technical documentation tool. **Technology in Government**, [London], 7 dez. 2018. Disponível em: https://technology.blog.gov.uk/2018/12/07/updating-the-gds-technical-documentation-tool/. Acesso em: 19 nov. 2026.
+
 MAMEDGULIEV, Ruslan Islamovich; TCUKANOVA, Olga Anatolievna. Research and analysis of approaches and views of IT specialists on the system, corporate and business architecture of the enterprise: trends, challenges, development prospects. **Business Informatics**, Moscou, v. 20, n. 3, p. 69-89, 2026. DOI: 10.17323/2587-814X.2026.3.69.89.
 
 MARCONI, Marina de Andrade; LAKATOS, Eva Maria. **Fundamentos de metodologia científica**. 7. ed. São Paulo: Atlas, 2010.
+
+REINO UNIDO. Home Office. **Docs as code**. [London]: Home Office, 25 abr. 2025. Disponível em: https://engineering.homeoffice.gov.uk/patterns/docs-as-code/. Acesso em: 19 nov. 2026.
 
 RIBEIRO, Elizabeth Matos; IZQUIERDO, Oscar Chassagnes. **Gestão do conhecimento e governança no setor público**. Salvador: UFBA, 2017. E-book (104 p.). (Coleção Gestão de pessoas com ênfase em gestão de competências). ISBN 978-85-8292-067-1.
 
@@ -188,3 +190,5 @@ RIPOLI, Simone Cristina Ceron; MARTELLO, Marcelo Ricardo; BUSSADORI, Meiriellen 
 RODRIGUES, Alexandra Soares. Gestão do conhecimento no setor público: a integração estratégica do e-learning como instrumento de inovação administrativa. **Revista Tópicos**, [s. l.], 17 jun. 2026. DOI: https://doi.org/10.70773/revistatopicos/781579878.
 
 SILVA, Edson Souza; SOUZA, Talita da Silva Livramento. Desafios e perspectivas da gestão do conhecimento na administração pública. **Destaques Acadêmicos**, Lajeado, v. 17, n. 1, p. 63-73, 2025. DOI: https://dx.doi.org/10.22410/issn.2176-3070.v17i1a2025.4061.
+
+THE UK government meets docs as code. [Palestrante]: Jen Lambourne. Praga: Write the Docs, 16 set. 2019. 1 vídeo (30 min). Disponível em: https://www.youtube.com/watch?v=Ql9Il7tssik. Acesso em: 19 nov. 2026.
